@@ -4,13 +4,52 @@
 
 <div itemscope itemtype="http://schema.org/Person" class="profile_box">
 
-  <div class="author__avatar">
-    <img src="{{ author.avatar }}" class="author__avatar" alt="{{ author.name }}">
-  </div>
+  {% if author.avatar %}
+    <div class="author__avatar">
+      <img src="{{ author.avatar }}" class="author__avatar" alt="{{ author.name }}">
+    </div>
+  {% endif %}
 
   <div class="author__content">
     <h3 class="author__name">{{ author.name }}</h3>
     {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+    {% if author.role %}<p class="author__role">{{ author.role }}</p>{% endif %}
+    {% if author.affiliation %}<p class="author__affiliation">{{ author.affiliation }}</p>{% endif %}
+  </div>
+
+  <div class="author__profile-details">
+    {% if author.metrics %}
+      <div class="author__metric-grid" aria-label="Profile highlights">
+        {% for item in author.metrics %}
+          <div class="author__metric">
+            <strong>{{ item.value }}</strong>
+            <span>{{ item.label }}</span>
+          </div>
+        {% endfor %}
+      </div>
+    {% endif %}
+
+    {% if author.interests %}
+      <div class="author__detail-block">
+        <h4>Focus</h4>
+        <ul class="author__chip-list">
+          {% for interest in author.interests %}
+            <li>{{ interest }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endif %}
+
+    {% if author.education_short %}
+      <div class="author__detail-block author__detail-block--compact">
+        <h4>Training</h4>
+        <ul>
+          {% for item in author.education_short %}
+            <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endif %}
   </div>
 
   <div class="author__urls-wrapper">

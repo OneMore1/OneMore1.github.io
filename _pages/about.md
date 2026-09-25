@@ -32,7 +32,7 @@ redirect_from:
 
 <p class="publication-note"><sup>&dagger;</sup> Equal contribution; <sup>*</sup> co-corresponding author.</p>
 
-<div class="paper-box paper-box--new">
+<div class="paper-box">
   <div class="paper-box-image">
     <div><div class="badge">NeurIPS 2026</div><img src="images/flatclip.png" alt="FlatClip pipeline"></div>
   </div>
@@ -47,7 +47,7 @@ redirect_from:
   </div>
 </div>
 
-<div class="paper-box paper-box--new">
+<div class="paper-box">
   <div class="paper-box-image">
     <div><div class="badge">NeurIPS 2026 Oral</div><img src="images/brainworld.png" alt="BrainWorld framework"></div>
   </div>

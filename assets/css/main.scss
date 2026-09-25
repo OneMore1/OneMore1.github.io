@@ -37,7 +37,6 @@ $academic-blue-dark: #183557;
 $academic-ink: #303b47;
 $academic-muted: #687482;
 $academic-border: #e3e8ee;
-$academic-soft: #f6f8fb;
 
 body {
   background: #fff;
@@ -117,9 +116,6 @@ body {
   padding: 1.45rem 0;
   border-bottom: 1px solid $academic-border;
 
-  &--new {
-    background: linear-gradient(90deg, $academic-soft 0, rgba(246, 248, 251, 0) 72%);
-  }
 }
 
 .paper-box-image {

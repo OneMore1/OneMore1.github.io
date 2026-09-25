@@ -1,6 +1,6 @@
 # Site Settings
 title                    : "Mo Wang | Computational Neuroscience"
-description              : "fMRI foundation models · brain-computer interfaces · neuromodulation"
+description              : "fMRI foundation models · brain organization · personalized neuromodulation"
 repository               : "OneMore1/OneMore1.github.io"
 url                      : "https://onemore1.github.io"
 baseurl                  : ""
@@ -17,10 +17,10 @@ baidu_site_verification  :
 # Site Author
 author:
   name             : "Mo Wang"
-  avatar           :
-  bio              : "PhD candidate · Warwick / SUSTech"
-  role             : "Computational neuroscience and BCI researcher"
-  affiliation      : "University of Warwick · Southern University of Science and Technology"
+  avatar           : "/images/avatar.jpg"
+  bio              : "PhD candidate in Computer Science"
+  role             : "AI · neuroimaging · computational neuroscience"
+  affiliation      : "University of Warwick / SUSTech"
   location         : "Coventry / Shenzhen"
   employer         :
   pubmed           :
@@ -31,14 +31,6 @@ author:
   linkedin         :
   dblp             :
   orcid            :
-  interests:
-    - "fMRI foundation models"
-    - "Neural decoding"
-    - "Personalized brain parcellation"
-    - "tES modeling and optimization"
-  education_short:
-    - "PhD, Computer Science, Warwick"
-    - "MSc, Advanced Computer Science, Birmingham"
 
 # Reading Files
 include:

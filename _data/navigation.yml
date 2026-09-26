@@ -14,3 +14,6 @@ main:
 
   - title: "Experience"
     url: "/#experience"
+
+  - title: "fMRIatlas"
+    url: "https://www.fmriatlas.com/"

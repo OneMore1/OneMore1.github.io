@@ -14,6 +14,8 @@ redirect_from:
   <p>I am a PhD candidate in Computer Science at the University of Warwick, working at the intersection of artificial intelligence, neuroimaging, and computational neuroscience.</p>
 
   <p>My research develops fine-grained brain foundation models for learning generalizable representations from large-scale fMRI and EEG data. I am particularly interested in functional brain organization, neurodevelopment, and individual variability. I further connect individualized brain representations with personalized brain parcellation and computational neuromodulation, with the long-term goal of linking brain representation, organization, and intervention within a unified framework for personalized neuroscience.</p>
+
+  <p>For more on our fMRI foundation-model research, please visit <a href="https://www.fmriatlas.com/">fMRIatlas</a>.</p>
 </div>
 
 <span class="anchor" id="news"></span>

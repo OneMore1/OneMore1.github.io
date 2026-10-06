@@ -11,7 +11,7 @@ redirect_from:
 <span class="anchor" id="about-me"></span>
 
 <div class="intro-copy">
-  <p>I am a PhD candidate in Computer Science at the University of Warwick, working at the intersection of artificial intelligence, neuroimaging, and computational neuroscience.</p>
+  <p>I am a PhD candidate in Computer Science at the University of Warwick, supervised by Prof. Hongkai Wen and Prof. Jianfeng Feng at Warwick, and Prof. Quanying Liu at the Southern University of Science and Technology (SUSTech). My research lies at the intersection of artificial intelligence, neuroimaging, and computational neuroscience.</p>
 
   <p>My research develops fine-grained brain foundation models for learning generalizable representations from large-scale fMRI and EEG data. I am particularly interested in functional brain organization, neurodevelopment, and individual variability. I further connect individualized brain representations with personalized brain parcellation and computational neuromodulation, with the long-term goal of linking brain representation, organization, and intervention within a unified framework for personalized neuroscience.</p>
 
@@ -45,6 +45,8 @@ redirect_from:
   <p class="paper-authors"><strong>Mo Wang</strong>, Wenhao Ye, Zihan Ning, Jiayu Zuo, Junfeng Xia, Hongkai Wen<sup>*</sup>, Quanying Liu<sup>*</sup></p>
 
   FlatClip reuses a frozen image foundation model over geometry-aware cortical flatmap sequences, providing a practical surface-level baseline between ROI and voxel representations.
+
+  <p class="paper-links"><a href="https://arxiv.org/abs/2609.31204">Paper</a></p>
 
   </div>
 </div>

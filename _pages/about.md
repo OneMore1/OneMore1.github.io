@@ -52,7 +52,7 @@ redirect_from:
   </div>
   <div class="paper-box-text" markdown="1">
 
-  <p class="paper-title">FlatClip: A Geometry-Aware Surface-Level Baseline for fMRI Representation Learning</p>
+  <p class="paper-title">FlatClip: Reusing Image Foundation Models for fMRI Representation Learning via Cortical Flatmaps</p>
 
   <p class="paper-authors"><strong>Mo Wang</strong>, Wenhao Ye, Zihan Ning, Jiayu Zuo, Junfeng Xia, Hongkai Wen<sup>*</sup>, Quanying Liu<sup>*</sup></p>
 

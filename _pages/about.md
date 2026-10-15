@@ -18,6 +18,18 @@ redirect_from:
   <p>For more on our fMRI foundation-model research, please visit <a href="https://www.fmriatlas.com/">fMRIatlas</a>.</p>
 </div>
 
+<figure class="research-workflow">
+  <a href="{{ '/images/research-workflow.gif' | relative_url }}" target="_blank" rel="noopener" aria-label="View the research workflow at full size" title="View research workflow at full size">
+    <picture>
+      <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="{{ '/images/research-workflow-mobile-poster.png' | relative_url }}">
+      <source media="(prefers-reduced-motion: reduce)" srcset="{{ '/images/research-workflow-poster.png' | relative_url }}">
+      <source media="(max-width: 600px)" type="image/webp" srcset="{{ '/images/research-workflow-mobile.webp' | relative_url }}">
+      <source type="image/webp" srcset="{{ '/images/research-workflow.webp' | relative_url }}">
+      <img src="{{ '/images/research-workflow.gif' | relative_url }}" width="1800" height="420" alt="Research workflow: Brain Signals to Foundation Models, Features, Personalized Atlases, and Precise Neuromodulation.">
+    </picture>
+  </a>
+</figure>
+
 <span class="anchor" id="news"></span>
 
 # News

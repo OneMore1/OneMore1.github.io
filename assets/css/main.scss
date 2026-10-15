@@ -85,6 +85,41 @@ body {
   font-size: 0.88em;
 }
 
+.page__content .research-workflow {
+  width: 100%;
+  margin: 1.6rem 0 2rem;
+
+  a,
+  picture,
+  img {
+    display: block;
+    width: 100%;
+  }
+
+  img {
+    height: auto;
+    aspect-ratio: 30 / 7;
+    margin: 0;
+    border: 0;
+    box-shadow: none;
+  }
+
+  a:hover img {
+    box-shadow: none;
+  }
+
+  a:focus-visible {
+    outline: 2px solid $academic-blue;
+    outline-offset: 4px;
+  }
+
+  @media (max-width: 600px) {
+    img {
+      aspect-ratio: 30 / 31;
+    }
+  }
+}
+
 .news-list,
 .compact-publications,
 .timeline-list {

@@ -58,7 +58,7 @@ redirect_from:
 
   FlatClip reuses a frozen image foundation model over geometry-aware cortical flatmap sequences, providing a practical surface-level baseline between ROI and voxel representations.
 
-  <p class="paper-links"><a href="https://arxiv.org/abs/2609.31204">Paper</a></p>
+  <p class="paper-links"><a href="https://arxiv.org/abs/2609.31204">Paper</a><a href="https://github.com/OneMore1/FlatClip">Code</a></p>
 
   </div>
 </div>
@@ -75,7 +75,7 @@ redirect_from:
 
   A structural-prior-conditioned generative model for long-horizon whole-brain 4D fMRI dynamics and transferable multimodal representation learning.
 
-  <p class="paper-links"><a href="https://arxiv.org/abs/2606.17742">Paper</a></p>
+  <p class="paper-links"><a href="https://arxiv.org/abs/2606.17742">Paper</a><a href="https://github.com/REDMAO4869/BrainWorld">Code</a></p>
 
   </div>
 </div>

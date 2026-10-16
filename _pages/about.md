@@ -11,7 +11,7 @@ redirect_from:
 <span class="anchor" id="about-me"></span>
 
 <div class="intro-copy">
-  <p>I am a PhD candidate in Computer Science at the University of Warwick, supervised by Prof. Hongkai Wen and Prof. Jianfeng Feng at Warwick, and Prof. Quanying Liu at the Southern University of Science and Technology (SUSTech). My research lies at the intersection of artificial intelligence, neuroimaging, and computational neuroscience.</p>
+  <p>I am a PhD candidate in Computer Science at the University of Warwick, supervised by Prof. Hongkai Wen@Warwick，Prof. Quanying Liu@SUSTech，and Prof. Jianfeng Feng @Warwick. My research lies at the intersection of artificial intelligence, neuroimaging, and computational neuroscience.</p>
 
   <p>My research develops fine-grained brain foundation models for learning generalizable representations from large-scale fMRI and EEG data. I am particularly interested in functional brain organization, neurodevelopment, and individual variability. I further connect individualized brain representations with personalized brain parcellation and computational neuromodulation, with the long-term goal of linking brain representation, organization, and intervention within a unified framework for personalized neuroscience.</p>
 

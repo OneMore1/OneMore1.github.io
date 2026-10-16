@@ -69,13 +69,22 @@ body {
 }
 
 .intro-copy {
-  max-width: 54rem;
+  width: 100%;
   padding: 0.35rem 0 0.4rem;
 
   p {
     margin-bottom: 0.85rem;
     font-size: 1.02em;
     line-height: 1.7;
+    text-align: justify;
+    text-align-last: left;
+    text-justify: inter-word;
+  }
+
+  @media (max-width: 600px) {
+    p {
+      text-align: left;
+    }
   }
 }
 
